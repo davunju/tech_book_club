@@ -97,7 +97,7 @@ const Explore = () => {
         </div>
       </div>
 
-      <div className="hidden md:relative z-10 bg-hero bg-no-repeat bg-cover max-w-4xl mx-auto bg-orange-50 bg-blend-overlay rounded-xl p-8">
+      <div className="hidden md:block relative z-10 bg-hero bg-no-repeat bg-cover max-w-4xl mx-auto bg-orange-50 bg-blend-overlay rounded-xl p-8">
         <h1 className="text-5xl text-center font-bold font-roboto">
           Your tech
         </h1>
