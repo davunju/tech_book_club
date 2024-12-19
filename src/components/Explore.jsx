@@ -29,11 +29,11 @@ const Explore = () => {
   ];
   return (
     <section className="my-14 w-full mx-auto py-5 px-10 max-w-[1440px] text-cyan-950 font-medium mb-16">
-      <div className="flex items-center justify-center gap-14 mb-24">
-        <div className="w-1/2">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-14 mb-24">
+        <div className="w-full lg:w-1/2">
           <img src="/hero3.jpg" alt="read together" className="rounded-2xl" />
         </div>
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <h1 className="text-5xl font-bold font-roboto">Read together,</h1>
           <h2 className="text-5xl font-bold font-roboto mb-5">grow together</h2>
           <ul>
@@ -61,8 +61,8 @@ const Explore = () => {
       </div>
 
       <div className="relative mb-28">
-        <div className="flex items-center justify-center gap-10">
-          <div className="w-1/2">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
+          <div className="w-full lg:w-1/2">
             <h1 className="text-6xl font-bold font-roboto mb-8">
               Not your average book{" "}
               <span className="ring ring-orange-200 ring-inset">club</span>
@@ -75,7 +75,7 @@ const Explore = () => {
               applications.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2">
             <img src="/hero4.jpg" alt="" className="rounded-2xl" />
           </div>
         </div>
@@ -113,7 +113,7 @@ const Explore = () => {
             </li>
           ))}
         </ul>
-        <div className="w-52 h-48 blur-xl opacity-50 absolute bg-gradient-to-br from-orange-50 to-cyan-800 bottom-0 right-0 z-0"></div>
+        <div className="hidden md:block w-52 h-48 blur-xl opacity-50 absolute bg-gradient-to-br from-orange-50 to-cyan-800 bottom-0 right-0 z-0"></div>
       </div>
     </section>
   );
