@@ -23,18 +23,18 @@ const Membership = () => {
     },
   ];
   return (
-    <section className="w-full max-w-4xl py-5 px-10 mx-auto text-cyan-950 mb-16">
-      <h1 className="text-center text-5xl font-bold font-roboto mb-8">
+    <section className="w-full max-w-4xl pb-5 px-5 md:px-10 mx-auto text-cyan-950 mb-16">
+      <h1 className="text-start md:text-center text-3xl md:text-5xl font-bold font-roboto mb-8">
         Membership Options
       </h1>
-      <section className="flex items-center gap-5 justify-center mb-14">
+      <section className="flex flex-col md:flex-row items-start md:items-center gap-5 justify-center mb-14">
         {options.map((option) => (
           <div
             key={option.id}
             className={
               option.id === 2
-                ? "ring-1 ring-inset ring-stone-300 px-4 py-6 rounded-xl w-64 h-72 bg-gradient-to-br from-white via-orange-50 to-cyan-100"
-                : "ring-1 ring-inset ring-stone-300 p-4 rounded-xl w-60 h-[266px]"
+                ? "ring-1 ring-inset ring-stone-300 px-4 py-6 rounded-xl w-full md:w-64 h-72 bg-gradient-to-br from-white via-orange-50 to-cyan-100"
+                : "ring-1 ring-inset ring-stone-300 p-4 rounded-xl w-full md:w-60 h-[266px]"
             }
           >
             <h1 className="font-bold font-roboto mb-3 text-xl">
@@ -94,19 +94,21 @@ const Membership = () => {
       </section>
 
       <section>
-        <div className="flex items-center gap-3 justify-center mb-8">
+        <div className="flex items-center gap-3 justify-start md:justify-center mb-8">
           <img src="/star.svg" className="size-6" />
           <img src="/star.svg" className="size-6" />
           <img src="/star.svg" className="size-6" />
           <img src="/star.svg" className="size-6" />
           <img src="/star.svg" className="size-6" />
         </div>
-        <p className="font-bold font-roboto text-2xl w-3/4 mx-auto text-center mb-4">
+        <p className="font-bold font-roboto text-lg md:text-2xl w-full md:w-3/4 mx-auto text-start md:text-center mb-4">
           This book club transformed my technical reading from a solitary
           activity into an enriching community experience. The discussions are
           gold!
         </p>
-        <p className="text-center">Sarah Chen, Software Architect</p>
+        <p className="text-start md:text-center">
+          Sarah Chen, Software Architect
+        </p>
       </section>
     </section>
   );

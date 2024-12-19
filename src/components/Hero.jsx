@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="bg-hero bg-no-repeat bg-cover bg-orange-50 bg-blend-overlay lg:mb-24 relative">
-      <section className="w-full max-w-[1440px] px-10 py-5 mx-auto relative z-10">
+      <section className="w-full max-w-[1440px] px-5 md:px-10 py-5 mx-auto relative z-10">
         <nav className="flex gap-1 items-center mb-14">
           <img src="/logo.svg" alt="logo" className="size-8" />
           <p className="font-bold text-lg text-stone-800">Tech book club</p>

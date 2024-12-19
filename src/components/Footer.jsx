@@ -1,12 +1,12 @@
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="bg-cyan-950 bg-hero bg-cover bg-no-repeat bg-blend-darken text-orange-50 rounded-t-2xl pt-14 text-center">
+    <footer className="bg-cyan-950 bg-hero bg-cover bg-no-repeat bg-blend-darken text-orange-50 rounded-t-2xl pt-14 px-5 text-center">
       <section>
-        <h1 className="text-5xl font-semibold font-roboto">
+        <h1 className="text-3xl md:text-5xl font-semibold font-roboto">
           Ready to debug your
         </h1>
-        <h2 className="text-5xl font-semibold font-roboto mb-10">
+        <h2 className="text-3xl md:text-5xl font-semibold font-roboto mb-10">
           reading list?
         </h2>
         <button className="mb-8 flex items-center gap-3 uppercase ring-1 ring-inset ring-orange-50 rounded-lg p-4 mx-auto hover:text-cyan-950 hover:bg-orange-50">
@@ -26,7 +26,7 @@ const Footer = () => {
             />
           </svg>
         </button>
-        <section className="flex items-center gap-4 text-start justify-center mb-10">
+        <section className="flex flex-col md:flex-row items-start md:items-center gap-4 text-start justify-center mb-10">
           <div className="flex items-center">
             <img
               src="/person1.jpg"
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </section>
 
-        <section className="w-full max-w-5xl mx-auto border-t border-gray-400 py-4 flex items-center justify-between">
+        <section className="w-11/12 max-w-5xl mx-auto border-t border-gray-400 py-4 flex flex-col md:flex-row gap-2 items-center justify-between">
           <div className="font-roboto">© {year} - Tech Book Club</div>
           <div className="flex items-center gap-2">
             <svg

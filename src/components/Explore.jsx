@@ -28,14 +28,18 @@ const Explore = () => {
     },
   ];
   return (
-    <section className="my-14 w-full mx-auto py-5 px-10 max-w-[1440px] text-cyan-950 font-medium mb-16">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-14 mb-24">
+    <section className="my-14 w-full mx-auto pt-5 px-5 md:px-10 max-w-[1440px] text-cyan-950 font-medium mb-0 md:mb-16">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-14 mb-10 md:mb-24">
         <div className="w-full lg:w-1/2">
           <img src="/hero3.jpg" alt="read together" className="rounded-2xl" />
         </div>
         <div className="w-full lg:w-1/2">
-          <h1 className="text-5xl font-bold font-roboto">Read together,</h1>
-          <h2 className="text-5xl font-bold font-roboto mb-5">grow together</h2>
+          <h1 className="text-3xl md:text-5xl font-bold font-roboto">
+            Read together,
+          </h1>
+          <h2 className="text-3xl md:text-5xl font-bold font-roboto mb-5">
+            grow together
+          </h2>
           <ul>
             {reads.map((read) => (
               <li key={read} className="flex items-center gap-2 mt-2">
@@ -63,7 +67,7 @@ const Explore = () => {
       <div className="relative mb-28">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
           <div className="w-full lg:w-1/2">
-            <h1 className="text-6xl font-bold font-roboto mb-8">
+            <h1 className="text-3xl md:text-6xl font-bold font-roboto mb-8">
               Not your average book{" "}
               <span className="ring ring-orange-200 ring-inset">club</span>
             </h1>
@@ -93,7 +97,7 @@ const Explore = () => {
         </div>
       </div>
 
-      <div className="relative z-10 bg-hero bg-no-repeat bg-cover max-w-4xl mx-auto bg-orange-50 bg-blend-overlay rounded-xl p-8">
+      <div className="hidden md:relative z-10 bg-hero bg-no-repeat bg-cover max-w-4xl mx-auto bg-orange-50 bg-blend-overlay rounded-xl p-8">
         <h1 className="text-5xl text-center font-bold font-roboto">
           Your tech
         </h1>
