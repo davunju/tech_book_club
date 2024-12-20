@@ -51,11 +51,7 @@ const Hero = () => {
             </section>
           </div>
           <div className="w-full">
-            <img
-              src="/hero2.jpg"
-              alt="hero image"
-              className="rounded-2xl h-full"
-            />
+            <img src="/hero2.jpg" alt="hero image" className="rounded-2xl" />
           </div>
         </section>
       </section>

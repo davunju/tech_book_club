@@ -64,7 +64,7 @@ const Explore = () => {
         </div>
       </div>
 
-      <div className="relative mb-28">
+      <div className="relative mb-16 md:mb-24">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
           <div className="w-full lg:w-1/2">
             <h1 className="text-3xl md:text-6xl font-bold font-roboto mb-8">
