@@ -9,6 +9,7 @@ const Footer = () => {
         <h2 className="text-3xl md:text-5xl font-semibold font-roboto mb-10">
           reading list?
         </h2>
+        <a href="#membership">
         <button className="mb-8 flex items-center gap-3 uppercase ring-1 ring-inset ring-orange-50 rounded-lg p-4 mx-auto hover:text-cyan-950 hover:bg-orange-50">
           <p className="font-bold font-roboto">review membership options</p>
           <svg
@@ -26,6 +27,7 @@ const Footer = () => {
             />
           </svg>
         </button>
+        </a>
         <section className="flex flex-col md:flex-row items-start md:items-center gap-4 text-start justify-center mb-10">
           <div className="flex items-center">
             <img
