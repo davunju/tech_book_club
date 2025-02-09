@@ -17,7 +17,7 @@ const Hero = () => {
               enthusiasts. Get curated recommendations, join vibrant
               discussions, and level up your skills one chapter at a time.
             </p>
-            <button className="flex gap-2 items-center font-roboto p-5 ring-2 ring-cyan-900 hover:ring-cyan-700 hover:bg-cyan-900 hover:text-orange-50 rounded-xl ring-inset bg-orange-50 mb-8">
+            <button className="flex gap-2 items-center font-roboto p-5 ring-2 ring-cyan-900 hover:ring-orange-100 hover:bg-cyan-900 hover:text-orange-50 rounded-xl ring-inset bg-orange-50 mb-8">
               <p className="uppercase font-bold">review membership options</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
