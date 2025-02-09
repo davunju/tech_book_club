@@ -17,6 +17,7 @@ const Hero = () => {
               enthusiasts. Get curated recommendations, join vibrant
               discussions, and level up your skills one chapter at a time.
             </p>
+            <a href="#membership">
             <button className="flex gap-2 items-center font-roboto p-5 ring-2 ring-cyan-900 hover:bg-cyan-900 hover:text-orange-50 rounded-xl ring-inset bg-orange-50 mb-8">
               <p className="uppercase font-bold">review membership options</p>
               <svg
@@ -34,6 +35,8 @@ const Hero = () => {
                 />
               </svg>
             </button>
+            </a>
+            
             <section className="flex md:items-center flex-col md:flex-row gap-4">
               <div className="flex items-center">
                 <img src="/person1.jpg" className="size-10 rounded-full" />
