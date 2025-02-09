@@ -23,7 +23,7 @@ const Membership = () => {
     },
   ];
   return (
-    <section className="w-full max-w-4xl pb-5 px-5 md:px-10 mx-auto text-cyan-950 mb-16">
+    <section id="membership" className="w-full max-w-4xl pb-5 px-5 md:px-10 mx-auto text-cyan-950 mb-16">
       <h1 className="text-start md:text-center text-3xl md:text-5xl font-bold font-roboto mb-8">
         Membership Options
       </h1>
