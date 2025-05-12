@@ -86,7 +86,7 @@ const Membership = () => {
                 <span>{option.offer.place}</span>
               </li>
             </ul>
-            <button className="w-full font-roboto bg-orange-50 ring-1 ring-inset ring-cyan-800 uppercase mt-6 rounded-lg font-semibold p-2 hover:bg-cyan-800 hover:ring-orange-100 hover:text-orange-50">
+            <button className="w-full font-roboto bg-orange-50 ring-1 ring-inset ring-cyan-800 uppercase mt-6 rounded-lg font-semibold p-2 hover:bg-cyan-800 hover:text-orange-50">
               {option.subscribe}
             </button>
           </div>
